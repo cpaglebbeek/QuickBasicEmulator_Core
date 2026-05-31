@@ -1,0 +1,26 @@
+{
+  "$schema": "../schema/dialect.schema.json",
+  "dialect": "qbasic",
+  "description": "QBasic 1.0/1.1 (1991, MS-DOS 5+) — interpreter, no .exe output",
+  "features": {
+    "line_numbers": "optional",
+    "tokenized_format": "not_applicable",
+    "labels": "supported",
+    "sub_function_procedures": "supported"
+  },
+  "statements": {
+    "PRINT": { "skeleton": true },
+    "INPUT": { "skeleton": true },
+    "GOTO": { "skeleton": true },
+    "GOSUB": { "skeleton": true },
+    "FOR": { "skeleton": true },
+    "NEXT": { "skeleton": true },
+    "IF": { "skeleton": true },
+    "SELECT": { "skeleton": true },
+    "DO": { "skeleton": true },
+    "LOOP": { "skeleton": true },
+    "SUB": { "skeleton": true },
+    "FUNCTION": { "skeleton": true }
+  },
+  "status": "v0.0.1-Gates skeleton — top-50 statements fill in v0.0.2-Allen"
+}

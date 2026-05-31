@@ -1,0 +1,34 @@
+{
+  "$schema": "../schema/dialect.schema.json",
+  "dialect": "qb45",
+  "description": "QuickBASIC 4.5 (1988-1990) — compiles to .exe, BRUN-mode or stand-alone",
+  "compile_modes": {
+    "BRUN": "Dynamic link to BRUN45.EXE runtime — small .exe with p-code",
+    "Stand-alone": "Statically linked BCOM45.LIB — larger .exe with native x86 + linked runtime stubs"
+  },
+  "features": {
+    "line_numbers": "optional",
+    "tokenized_format": "not_applicable",
+    "labels": "supported",
+    "sub_function_procedures": "supported",
+    "user_defined_types": "supported",
+    "metacommands": "supported"
+  },
+  "statements": {
+    "PRINT": { "skeleton": true },
+    "INPUT": { "skeleton": true },
+    "GOTO": { "skeleton": true },
+    "GOSUB": { "skeleton": true },
+    "FOR": { "skeleton": true },
+    "NEXT": { "skeleton": true },
+    "IF": { "skeleton": true },
+    "SELECT": { "skeleton": true },
+    "DO": { "skeleton": true },
+    "LOOP": { "skeleton": true },
+    "SUB": { "skeleton": true },
+    "FUNCTION": { "skeleton": true },
+    "TYPE": { "skeleton": true },
+    "SHARED": { "skeleton": true }
+  },
+  "status": "v0.0.1-Gates skeleton — top-50 statements fill in v0.0.2-Allen"
+}

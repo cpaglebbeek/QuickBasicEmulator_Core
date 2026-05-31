@@ -1,0 +1,25 @@
+{
+  "$schema": "../schema/dialect.schema.json",
+  "dialect": "gwbasic",
+  "description": "GW-BASIC (1983-1988) — Microsoft BASIC interpreter for IBM PC, line-number based",
+  "source_reference": "https://github.com/microsoft/GW-BASIC (MIT, spec-referentie, geen verbatim port)",
+  "features": {
+    "line_numbers": "required",
+    "tokenized_format": "supported",
+    "labels": "not_supported",
+    "sub_function_procedures": "not_supported"
+  },
+  "statements": {
+    "PRINT": { "skeleton": true },
+    "LET": { "skeleton": true },
+    "INPUT": { "skeleton": true },
+    "GOTO": { "skeleton": true },
+    "FOR": { "skeleton": true },
+    "NEXT": { "skeleton": true },
+    "IF": { "skeleton": true },
+    "REM": { "skeleton": true },
+    "DATA": { "skeleton": true },
+    "READ": { "skeleton": true }
+  },
+  "status": "v0.0.1-Gates skeleton — top-50 statements fill in v0.0.2-Allen"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@cpaglebbeek/quickbasic-emulator-core",
+  "version": "0.0.1",
+  "description": "Canonical dialect specifications, AST types and test suite for QuickBasicEmulator (GW-BASIC, QBasic, QuickBASIC 4.5)",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/spec/*.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cpaglebbeek/QuickBasicEmulator_Core.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "cpaglebbeek",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
