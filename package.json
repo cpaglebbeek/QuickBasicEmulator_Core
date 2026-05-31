@@ -1,6 +1,6 @@
 {
   "name": "@cpaglebbeek/quickbasic-emulator-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Canonical dialect specifications, AST types and test suite for QuickBasicEmulator (GW-BASIC, QBasic, QuickBASIC 4.5)",
   "type": "module",
   "main": "./dist/index.js",

@@ -1,7 +1,7 @@
 {
-  "version": "0.0.1",
-  "codename": "Gates",
-  "released": "2026-05-31",
+  "version": "0.0.2",
+  "codename": "Allen",
+  "released": "2026-06-01",
   "stable": false,
-  "type": "skeleton"
+  "type": "spec-and-ast"
 }
