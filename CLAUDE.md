@@ -31,11 +31,3 @@ Canonieke dialect-spec + AST-types + test-suite. **Bron van waarheid** voor wat 
 | Tests | `tests/*.bas` + `tests/expected/*.txt` |
 | Test-runner | `vitest.config.ts` |
 
-## CI-status
-
-`.github/_workflows_pending/ci.yml` ligt klaar maar is nog niet actief op GitHub. Reden: bij eerste push had `gh` OAuth-token de `workflow` scope niet. Activeren met:
-```bash
-gh auth refresh -s workflow
-mv .github/_workflows_pending .github/workflows
-git add -A && git commit -m "Activate CI workflow" && git push
-```
