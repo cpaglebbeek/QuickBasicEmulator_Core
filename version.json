@@ -1,7 +1,9 @@
 {
-  "version": "0.0.2",
-  "codename": "Allen",
+  "version": "0.0.3",
+  "codename": "Davidoff",
   "released": "2026-06-01",
   "stable": false,
-  "type": "spec-and-ast"
+  "type": "spec-and-ast-plus-runtime-matrix",
+  "milestone": "runtime_capability_qbjs.json matrix toegevoegd (40 full + 7 partial + 11 none statements) — Web consumeert nu Core voor warnings",
+  "tests": "52/52 vitest groen (5 skeleton + 23 spec + 24 runtime-cap)"
 }
